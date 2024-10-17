@@ -90,7 +90,7 @@ const Footer = () => {
             </a>
           </div>
         </div>
-      {/* </div>  */}
+      {/* </div>  
 
       {/* Footer Copyright Section */}
       <div className="mt-16 text-center text-gray-500 text-sm">

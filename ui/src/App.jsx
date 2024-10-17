@@ -1,16 +1,14 @@
 import { createBrowserRouter, createRoutesFromElements, RouterProvider, Route } from "react-router-dom"
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import Header from './components/Header'
+
+
 import About from './components/About'
 import Skills from './components/Skills'
-import Experience from './components/Experience'
+
 import Footer from './components/Footer'
 import Education from './components/Education'
 import Projects from './components/Projects'
 import Profile from './components/Profile'
-import Navbar from './components/Navbar'
+
 import Indexpage from "./pages/Indexpage"
 // import './App.css'
 
