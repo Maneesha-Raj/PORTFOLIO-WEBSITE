@@ -15,7 +15,7 @@ const Profile = () => {
   <div className="max-w-2xl p-12  mx-auto grid grid-cols-2 md:grid-cols-4 gap-2 text-center">
     {/* First Row */}
     <div className="flex flex-col items-center ">
-      <img src={Gitlogo} alt="Github" className="w-10 h-10 mb-2" />
+      <a href="https://github.com/Maneesha-Raj"><img src={Gitlogo} alt="Github" className="w-10 h-10 mb-2" /></a>
       <p className="text-gray-600">Github</p>
     </div>
 
@@ -25,7 +25,7 @@ const Profile = () => {
     </div>
 
     <div className="flex flex-col items-center">
-      <img src={Linkedinlogo} alt="LinkedIn" className="w-10 h-10 mb-2  " />
+      <a href="https://www.linkedin.com/in/maneesha-raj-097760304/"><img src={Linkedinlogo} alt="LinkedIn" className="w-10 h-10 mb-2  " /></a>
       <p className="text-gray-600">LinkedIn</p>
     </div>
   </div>

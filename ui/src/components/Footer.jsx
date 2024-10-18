@@ -68,7 +68,7 @@ const Footer = () => {
             <strong>Email:</strong> maneesharaj25@gmail.com
           </div>
           <div className="mb-4">
-            <strong>Website:</strong> www.maneesha_raj.com
+            <strong>Website:</strong>  https://portfolio-website-64dc.vercel.app
           </div>
 
           {/* Social Icons */}

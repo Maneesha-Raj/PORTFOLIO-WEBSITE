@@ -19,7 +19,7 @@ const About = () => {
           <br />
 
             {/* Contact Details */}
-          <div className="flex justify-between text-white text-md border-t border-gray-300 pt-6">
+          <div className="flex gap-8 justify-between text-white text-md border-t border-gray-300 pt-6">
             <div>
               <p><strong>Phone:</strong> +91 8606639105</p>
             </div>
@@ -27,7 +27,7 @@ const About = () => {
               <p><strong>Email:</strong> maneesharaj25@gmail.com</p>
             </div>
             <div>
-              <p><strong>Website:</strong> </p>
+              <p><strong>Website:</strong><br /> https://portfolio-website-64dc.vercel.app</p>
             </div>
           </div>
           {/* </div> */}
