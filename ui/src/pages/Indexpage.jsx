@@ -49,12 +49,7 @@ const Indexpage = () => {
             <section ref={contactRef}>
                 <Footer />
             </section>
-            {/* <About />
             
-            <Skills />
-            
-            
-            <Footer /> */}
         </div>
 
     </>

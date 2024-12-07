@@ -30,9 +30,7 @@ const About = () => {
               <p><strong>Website:</strong><br /> https://portfolio-website-64dc.vercel.app</p>
             </div>
           </div>
-          {/* </div> */}
-
-          {/* gradient-to-b from-purple-700 from-10%  to-white to-90% */}
+          
 
           
         </div>

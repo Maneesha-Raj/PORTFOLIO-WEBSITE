@@ -38,12 +38,6 @@ const projects = [
         </div>
       </div>
     </section>
-  
-
-
-
-
-
     </div>
 
   )

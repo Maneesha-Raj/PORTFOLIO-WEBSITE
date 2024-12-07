@@ -16,14 +16,6 @@ const Header = () => {
         Download Resume
       </button></a>
     </header>
-
-
-
-
-    {/* <header className="text-center py-16 bg-gradient-to-r from-purple-700 to-purple-700 text-white "> */}
-
-
-
     </div>
   )
 }
