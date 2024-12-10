@@ -1,4 +1,5 @@
 import React from 'react';
+import { FaPhoneAlt, FaEnvelope, FaGlobe } from 'react-icons/fa';
 
 const Footer = () => {
   return (
@@ -10,14 +11,21 @@ const Footer = () => {
         <div className="text-white flex  gap-32 p-8 justify-center">
           
           
-          <div className="mb-2">
-            <strong>Phone:</strong> +91 8606639105
+          <div className="mb-2 flex gap-4">
+            <strong>Phone:</strong> 
+            <a href="tel:+918606639105" aria-label="Phone">
+              <FaPhoneAlt size={24} />
+            </a>
           </div>
-          <div className="mb-2">
-            <strong>Email:</strong> maneesharaj25@gmail.com
+          <div className="mb-2 flex gap-4">
+            <strong>Email:</strong> <a href="mailto:maneesharaj25@gmail.com" aria-label="Email">
+              <FaEnvelope size={24} />
+            </a>
           </div>
-          <div className="mb-4">
-            <strong>Website:</strong>  https://portfolio-website-64dc.vercel.app
+          <div className="mb-4 flex gap-4">
+            <strong>Website:</strong>   <a href="https://portfolio-website-64dc.vercel.app" target="_blank" rel="noopener noreferrer" aria-label="Website">
+              <FaGlobe size={24} />
+            </a>
           </div>
 
           {/* Social Icons */}
@@ -69,40 +77,3 @@ export default Footer;
 
 // ----------------------------------------------------------------------------------------------------------------
 
-
-// import React from 'react'
-
-// const Footer = () => {
-//   return (
-//     <div>
-      
-
-  
-//     <footer className="bg-gray-800 py-8 text-white text-center">
-//       <h2 className="text-2xl font-semibold mb-4">Contact Me</h2>
-//       <p className="mb-4">Feel free to reach out for any project or just to say hi!</p>
-//       <div className="flex justify-center space-x-4">
-//         <input
-//           type="text"
-//           placeholder="Your Name"
-//           className="px-4 py-2 rounded-md bg-gray-600 text-white"
-//         />
-//         <input
-//           type="email"
-//           placeholder="Your Email"
-//           className="px-4 py-2 rounded-md bg-gray-600 text-white"
-//         />
-//         <button className="px-4 py-2 bg-indigo-600 rounded-md">
-//           Send
-//         </button>
-//       </div>
-//     </footer>
-  
-
-
-
-//     </div>
-//   )
-// }
-
-// export default Footer
